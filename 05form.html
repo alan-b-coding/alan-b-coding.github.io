@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="05form.css">
+    <title>A survey</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Survey</h1>
+      <p id="description">Here's a survey for you to fill out.<br>Do it, caonima.</p>
+      <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Your name</label>
+        <input id="name" type="text" placeholder="Cao Nima" required>
+        <label for="email" id="email-label">Your email address</label>
+        <input id="email" type="email" placeholder="eat@me.com" required>
+        <label for="number" id="number-label">A cool number</label>
+        <input id="number" type="number" placeholder="69" required min="69" max="420">
+      </fieldset>
+      <fieldset>
+        <select id="dropdown">
+          <option>Pick a bias</option>
+          <option>Chuu</option>
+          <option>Yves</option>
+        </select>
+        <input type="radio" name="jin" value="jin" id="jin">Heejin</radio>
+        <input type="radio" name="jin" value="jin" id="jin">Hyunjin</radio>
+      </fieldset>
+      <fieldset>
+        <input type="checkbox" name="vivi" value="vivi" id="vivi">Vivi</radio>
+        <input type="checkbox" name="kimlip" value="kimlip" id="kimlip">Kim Lip</radio>
+      </fieldset>
+      <fieldset>
+        <label for="lore">Explain Loona lore here</label>
+        <textarea id="lore" type="textarea" rows="4" cols="50" name="lore"></textarea>
+      </fieldset>
+      <button type="submit" id="submit">Submit form
+      </form>  
+    </main>  
+  </body>
